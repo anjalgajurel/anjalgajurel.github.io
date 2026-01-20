@@ -1,12 +1,16 @@
 {
   "name": "portfolio",
-  "compatibility_date": "2025-04-01",
+  "compatibility_date": "2026-01-19",
   "assets": {
     "directory": "./"
   },
   "routes": [
     {
-      "pattern": "://anjalgajurel.com*",
+      "pattern": "anjalgajurel.com",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.anjalgajurel.com",
       "custom_domain": true
     }
   ]
