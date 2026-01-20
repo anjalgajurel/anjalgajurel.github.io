@@ -4,5 +4,8 @@
   "assets": {
     "directory": "./"
   },
-  routes = [ { pattern = "anjalgajurel.com", custom_domain = true } ]
+  "routes": = {
+    "pattern": "anjalgajurel.com",
+    "custom_domain": "true"
+  }
 }
