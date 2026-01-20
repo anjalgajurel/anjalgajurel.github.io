@@ -4,7 +4,7 @@
   "assets": {
     "directory": "./"
   },
-  "routes": = {
+  "routes": {
     "pattern": "anjalgajurel.com",
     "custom_domain": "true"
   }
